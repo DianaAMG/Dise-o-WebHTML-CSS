@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  /* border: 1px red solid; */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+li {
+  display: inline-block;
+  margin-right: 24px;
+  border-bottom: 2px #dae48f solid;
+}
+
+li:hover {
+  background-color: rgba(218, 228, 143, 0.226);
+}
+
+header {
+  background-color: white;
+  border-bottom: 4px #dae48f solid;
+}
+
+header img {
+  width: 128px;
+  margin-left: 24px;
+}
+
+main {
+  display: flex;
+  border-bottom: 4px #dae48f solid;
+}
+
+.container {
+  display: inline-block;
+  background-color: white;
+}
+
+.cuerpo {
+  width: auto;
+  background-color: #dae48f;
+  width: 100%;
+  margin: 10px;
+  border-radius: 8px;
+  background-image: url(./assets/Fondo\ 2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.cubo {
+  background-color: #dae48f88;
+  height: 80px;
+  width: 320px;
+  border-radius: 8px;
+  margin: 10px;
+  background-image: url(./assets/Fondo.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cubo p {
+  font-size: 30px;
+}
+
+
+.fin {
+  display: flex;
+  background-color: #dae48f4e;
+  justify-content: space-around;
+}
+
+.imagenes {
+  width: 30px;
+
+}
+
+.iconos {
+  display: flex;
+  justify-content: center;
+  margin: 14px;
+  align-items: center;
+
+}
